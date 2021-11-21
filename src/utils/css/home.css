@@ -64,10 +64,7 @@ footer{
 
 
 /* ------- RESPONSIVIDAD  -------*/
-@media screen and (max-width: 800px) {
-	body {
-		padding: 40px 0;
-	}
+@media screen and (max-width: 932px) {
     .menulateral{
         display: none;
     }

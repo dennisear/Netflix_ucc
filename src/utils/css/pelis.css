@@ -165,7 +165,9 @@
 .botonesCel2{
     text-align: center;
 }
-
+.video2{
+    display: none;
+}
 @media screen and (max-width: 932px) {
 	body {
 		padding: 40px 0;
@@ -191,8 +193,19 @@
     .button-primary, .btn-download{
         width: 100%;
         text-align: center;
-        justify-content: center;
-    
+        justify-content: center;    
+    }
+    .video2{
+        display: block;        
+    }
+    .video1{
+        display: none;
+    }
+    .content-serie{
+        display: block;
+    }
+    .det-main-serie{
+        width: 95%;
     }
 
 }
