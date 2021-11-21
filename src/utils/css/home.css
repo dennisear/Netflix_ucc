@@ -41,7 +41,7 @@
    padding: 2.5%;
    border-radius:10px;
 }
-.btn-black{
+.btn-black, .btn-black2{
     padding: 1%;
     background: black;
     border: none;
@@ -52,12 +52,17 @@
     font-size: 32px;
     color: white;
 }
-.categorias, .botonesCel{
+.categorias, .botonesCel, .botonesCel2{
     text-align: center;
 }
 #cel{
     display: none;
 }
+footer{
+    display: none;
+}
+
+
 /* ------- RESPONSIVIDAD  -------*/
 @media screen and (max-width: 800px) {
 	body {
@@ -79,5 +84,12 @@
     }
     #normal{
         display: none;
+    }
+    footer{
+        display: block;
+        width: 100%;
+        bottom: 0;
+        position:fixed;
+        background: black;
     }
 }

@@ -2,13 +2,10 @@
     /* overflow:hidden; */
     width: 100%;
 }
-
 .det-header .back-icon{
-    margin: 16px auto 8px 16px;
-    
+    margin: 16px auto 8px 16px;    
 }
-
-.det-main, .det-main-serie{
+.det-main, .det-main-serie, .det-main2{
     margin: 16px;
 }
 .det-main{
@@ -18,7 +15,7 @@
     width: 40%;
 }
 
-.det-main .meta, .det-main-serie .meta{
+.det-main .meta, .det-main-serie .meta, .det-main2 .meta{
     display: flex;
     gap:16px;
     align-items: center;
@@ -28,12 +25,12 @@
     color: grey;
 }
 
-.det-main .meta .coincidence, .det-main-serie .meta .coincidence{
+.det-main .meta .coincidence, .det-main-serie .meta .coincidence, .det-main2 .meta .coincidence {
     color: green;
     font-weight: bold;
 }
 
-.det-main .meta .age, .det-main-serie .meta .age{
+.det-main .meta .age, .det-main-serie .meta .age, .det-main2 .meta .age{
     display: block;
     background-color: grey;
     padding: 4px;
@@ -153,4 +150,49 @@
 }
 .intro-cap-img img:hover{
     border: solid 10px white;
+}
+
+.det-main2, footer{
+    display: none;
+
+}
+.btn-black2{
+    padding: 1%;
+    background: black;
+    border: none;
+    color: blanchedalmond;
+}
+.botonesCel2{
+    text-align: center;
+}
+
+@media screen and (max-width: 932px) {
+	body {
+		padding: 40px 0;
+	}
+    .det-main{
+        display: none;
+    }
+    #video {
+        position: relative;
+        width: 100%;
+    }
+    .det-main2{
+        display: block;
+        width: 95%;
+    }
+    footer{
+        display: block;
+        width: 100%;
+        bottom: 0;
+        position:fixed;
+        background: black;
+    }
+    .button-primary, .btn-download{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    
+    }
+
 }
