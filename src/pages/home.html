@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://kit.fontawesome.com/ab487a9db9.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/png" sizes="32x32" href="../utils/images/logou.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+        <link rel="stylesheet" href="../utils/css/styles.css">
+        <link rel="stylesheet" href="../utils/css/home.css">
+        <title>Netflix - U. Católica</title>
+    </head>
+</head>
+<body> 
+    <div class="containerHome">
+
+        <!--Menú lateral para pc's-->
+        <div class="menulateral">
+            <form action="" id="containerBotones" autocomplete="off">
+                <i class="fas fa-search" style="font-size: 48px; color: white"></i><br/>
+                <i class="fas fa-home" style="font-size: 48px; color: white"></i><br/>
+                <i class="fas fa-random" style="font-size: 48px; color: white"></i><br/>
+                <i class="fas fa-tv" style="font-size: 48px; color: white"></i><br/>
+                <i class="fas fa-film" style="font-size: 48px; color: white"></i><br/>
+                <i class="fas fa-plus" style="font-size: 48px; color: white"></i><br/>
+            </form>
+        </div>
+
+        <!--Menú horizontal para celulares-->
+        <div class="menuCel">
+            <div class="logoCel">
+                <img src="../utils/images/logo-netflix.png">
+            </div>
+            <div class="iconsCel">
+                <i class="fas fa-tv" style="font-size: 40px; color: white"></i>
+                <i class="fas fa-search" style="font-size: 40px; color: white"></i>
+                <i class="fas fa-user-circle" style="font-size: 40px; color: white"></i>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="firstPart">
+                <img src="../utils/images/home.png" id="normal">
+                <img src="../utils/images/homecel.png" id="cel">
+            </div>
+            <p class="categorias">Apasionante • Disparatado • Documental • TV</p><br/>
+
+            <div class="botonesCel">
+                <button class="btn-black"> <i class="fas fa-plus"></i> <br/> Mi lista </button>
+                <button class="btn-white"> <i class="fas fa-play"></i> Reproducir </button>
+                <button class="btn-black"> <i class="fas fa-info-circle"></i> <br/> Información </button>
+            </div><br/>
+            
+            <div class="secondPart">
+                <!------------- PRIMER CORTE ------------->     
+                <p class="text-title"> Primer corte </p>
+                <div class="contenedor">            
+                    <div class="carousel">
+                        <div class="carousel__contenedor">
+                            <button aria-label="Anterior" class="carousel__anterior">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>            
+                            <div class="carousel__lista">
+                                <div class="carousel__elemento">
+                                    <a href="../pages/films/1-c1-f1.html"><img src="../utils/images/1.jpg" class="coverFilmImage"></a>
+                                </div>
+                                <div class="carousel__elemento">
+                                    <a href="../pages/series/2-c1-s1.html"><img src="../utils/images/2.jpg" class="coverFilmImage"></a>
+                                </div>
+                                <div class="carousel__elemento">
+                                    <a href="../pages/series/3-c1-s2.html"><img src="../utils/images/3.jpg" class="coverFilmImage"></a>
+                                </div>
+                                <div class="carousel__elemento">
+                                    <a href="../pages/films/4-c1-f2.html"><img src="../utils/images/4.jpg" class="coverFilmImage"></a>
+                                </div>                
+                                <div class="carousel__elemento">
+                                    <a href="../pages/films/5-c1-f3.html"><img src="../utils/images/5.jpg" class="coverFilmImage"></a>
+                                </div>
+                                <div class="carousel__elemento">
+                                    <a href="../pages/films/6-c1-f4.html"><img src="../utils/images/6.jpg" class="coverFilmImage"></a>
+                                </div>
+                            </div>            
+                            <button aria-label="Siguiente" class="carousel__siguiente">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>            
+                        <div role="tablist" class="carousel__indicadores"></div>
+                    </div>
+                </div>
+                <!------------- SEGUNDO CORTE -------------> 
+                <p class="text-title"> Segundo corte </p>
+                <div class="contenedor2">            
+                    <div class="carousel2">
+                        <div class="carousel__contenedor2">
+                            <button aria-label="Anterior2" class="carousel__anterior2">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>            
+                            <div class="carousel__lista2">
+                                <div class="carousel__elemento2">
+                                    <a href="../pages/series/7-c2-s1.html"><img src="../utils/images/7.jpg" class="coverFilmImage"></a>
+                                </div>
+                                <div class="carousel__elemento2">
+                                    <a href="../pages/series/8-c2-s2.html"><img src="../utils/images/8.jpg" class="coverFilmImage"></a>
+                                </div>
+                                <div class="carousel__elemento2">
+                                    <a href="../pages/series/9-c2-s3.html"><img src="../utils/images/9.jpg" class="coverFilmImage"></a>
+                                </div>
+                            </div>            
+                            <button aria-label="Siguiente2" class="carousel__siguiente2">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>            
+                        <div role="tablist" class="carousel__indicadores2"></div>
+                    </div>
+                </div>
+                <!------------- TERCER CORTE ------------->
+                <p class="text-title"> Tercer corte </p>
+                <div class="contenedor3">            
+                    <div class="carousel3">
+                        <div class="carousel__contenedor3">
+                            <button aria-label="Anterior3" class="carousel__anterior3">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>            
+                            <div class="carousel__lista3">
+                                <div class="carousel__elemento3">
+                                    <a href="../pages/films/10-c3-f1.html"><img src="../utils/images/10.jpg" class="coverFilmImage"></a>
+                                </div>
+                                <div class="carousel__elemento3">
+                                    <a href="../pages/series/11-c3-s1.html"><img src="../utils/images/11.jpg" class="coverFilmImage"></a>
+                                </div>
+                                <div class="carousel__elemento3">
+                                    <a href="../pages/films/12-c3-f2.html"><img src="../utils/images/12.jpg" class="coverFilmImage"></a>
+                                </div>
+                                <div class="carousel__elemento3">
+                                    <a href="../pages/films/13-c3-f3.html"><img src="../utils/images/13.jpg" class="coverFilmImage"></a>
+                                </div>
+                            </div>            
+                            <button aria-label="Siguiente3" class="carousel__siguiente3">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>            
+                        <div role="tablist" class="carousel__indicadores3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="../utils/js/home.js"></script>
+</body>
+</html>

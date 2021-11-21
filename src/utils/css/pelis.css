@@ -1,0 +1,156 @@
+.det-header video{
+    /* overflow:hidden; */
+    width: 100%;
+}
+
+.det-header .back-icon{
+    margin: 16px auto 8px 16px;
+    
+}
+
+.det-main, .det-main-serie{
+    margin: 16px;
+}
+.det-main{
+    width: 50%;
+}
+.det-main-serie{
+    width: 40%;
+}
+
+.det-main .meta, .det-main-serie .meta{
+    display: flex;
+    gap:16px;
+    align-items: center;
+    margin-block-start: 8px;
+    margin-block-end: 16px;
+    font: var(--body1-reg);
+    color: grey;
+}
+
+.det-main .meta .coincidence, .det-main-serie .meta .coincidence{
+    color: green;
+    font-weight: bold;
+}
+
+.det-main .meta .age, .det-main-serie .meta .age{
+    display: block;
+    background-color: grey;
+    padding: 4px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 2px;
+}
+
+.det-main .meta .quality, .det-main-serie .meta .quality{
+    border: 1px solid grey;
+    color: white;
+    padding:4px;
+    border-radius: 2px;
+}
+
+.det-main .actions, .det-main-serie .actions{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.det-main .text, .det-main-serie .text{
+    margin-block-start: 16px;
+    margin-block-end: 24px;
+    text-align: justify;
+    font: var(--body1-reg);
+}
+
+.det-main .text .cite, .det-main-serie .text .cite{
+    margin-block-start: 16px;
+    color: grey;
+}
+
+.det-main .text .cite p, .det-main-serie .text .cite p{
+    font: var(--body2-reg);
+}
+
+
+
+.actions-secondary .actions-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.actions-secondary .actions-list a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.red-line{
+    background-color: red;
+    width: 30%;
+    height: 4px;
+    margin-block-start: 16px;
+    margin-block-end: 8px;
+}
+
+.button-primary, .btn-download, .button-cap{
+    display: flex;
+    align-items:center;
+    justify-content: left;
+    padding-left: 1%;
+    border: none;
+    border-radius: 2px;
+    padding-block: 4px;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+.button-cap{
+    border: solid 1px white;
+    background: transparent;
+    color: white;
+}
+
+.button-primary{
+    background: white;
+
+}
+
+.btn-download{
+    color: white;
+    background: #2B2B2B;
+
+}
+
+#video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -10;
+    visibility: visible;
+}
+
+
+
+
+.content-serie, .intro-cap{
+    display: flex;
+}
+
+.intro-cap-text{
+    width: 350px;
+    padding: 1%;
+}
+
+.intro-cap{
+    padding: 1%;
+}
+.intro-cap-img img:hover{
+    border: solid 10px white;
+}

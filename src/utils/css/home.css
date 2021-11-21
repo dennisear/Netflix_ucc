@@ -1,0 +1,83 @@
+/*  ------- MENÚ PARA DISPOSITIVOS DE GRAN TAMAÑO  ------- */
+.menulateral{
+    display: flex;
+    width:8%;
+    height: 100vh;
+    background: black;
+    align-items: center;
+    text-align: center;
+    line-height: 25px;
+    position: fixed;
+}
+#containerBotones{ 
+    display: flex;
+    height: max-content;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+
+/* ------- MENÚ PARA DISPOSITIVOS DE PEQUEÑO TAMAÑO  ------- */
+.menuCel, .botonesCel{
+    display: none;
+}
+.logoCel img{
+    width: 40px;
+    height: 65px;
+}
+
+/* ------- CONTENIDO PÁG HOME  -------*/
+.firstPart{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.firstPart img{
+    width: 90%;
+    height: 50vh;
+    margin: 0 auto;
+}
+.btn-white{
+   padding: 2.5%;
+   border-radius:10px;
+}
+.btn-black{
+    padding: 1%;
+    background: black;
+    border: none;
+    color: blanchedalmond;
+}
+.text-title{
+    padding-left: 3%;
+    font-size: 32px;
+    color: white;
+}
+.categorias, .botonesCel{
+    text-align: center;
+}
+#cel{
+    display: none;
+}
+/* ------- RESPONSIVIDAD  -------*/
+@media screen and (max-width: 800px) {
+	body {
+		padding: 40px 0;
+	}
+    .menulateral{
+        display: none;
+    }
+    .menuCel{
+        display: block;
+        display: flex;
+        justify-content: space-around;
+    }
+    .botonesCel{
+        display: block;
+    }
+    #cel{
+        display: block;
+    }
+    #normal{
+        display: none;
+    }
+}
